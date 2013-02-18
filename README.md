@@ -1,5 +1,7 @@
 Adjusts `TCP_USER_TIMEOUT` for some destinations by intercepting calls 
-to `connect(2)`.
+to `connect(2)`. You can use `timeouthack` to change TCP timeouts on a 
+per-application, per-destination basis without modifying the 
+application.
 
 See `Makefile` for sample usage.
 
